@@ -50,6 +50,13 @@ body {
 
 @media only screen and (max-width: 415px){
     .carousel-item > img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .carousel-item > img {
         height: 300px;
         object-fit: cover;
     }
@@ -69,14 +76,23 @@ body {
     bottom: 0;
     height: 10vh;
     width: 100%;
+    padding-top: 10px;
 }
 
 @media only screen and (max-width: 415px){
     .footer {
         height: 14vh;
     }
+
+    .footer > a > img {
+        height: 7vh;
+        object-fit: cover;
+    }
 }
 
 .footer > a > img {
     border-radius: 10px;
+
+    height: 5vh;
+    object-fit: cover;
 }
