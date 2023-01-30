@@ -7,13 +7,74 @@
 
 body {
     padding-top: 60px;
-    background-color: #efeae2;
+    background-color: #e8ddcc;
     font-family: 'Aboreto', cursive;
 }
 
 /* Navbar */
 .navbar-brand {
     font-size: 1em;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+#mission-verse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
+}
+
+.verse-wrapper {
+    padding: 5vh 15vw 5vh 15vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#center-verse {
+    text-align: center;
+}
+
+#mission-verse > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 10vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.core-values-titles {
+    text-align: start;
+}
+
+.about-titles {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+}
+
+.line {
+    padding: 0 100px 0 100px;
 }
 
 /* Footer */
