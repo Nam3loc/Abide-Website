@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="./Contact.css"> <!-- CSS -->
 
+    <script src="./Contact.js" defer></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
@@ -54,11 +56,52 @@
         </div>
     </nav>
 
-    
+    <!-- Contact Form -->
+    <h1 class="title"> Contact Us
+        <small class="under-title">If you have any questions or comments, feel free to reach out!</small>
+    </h1>
+    <section class="contact-wrapper">
+        <form action="" class="contact-form">
+            <div class="first-name-wrapper name-wrapper">
+                <div class="input-block">
+                    <!-- <label for="">First Name</label> -->
+                    <input type="text" placeholder='First Name' class="form-control">
+                </div>
+            </div>
+            <div class="last-name-wrapper name-wrapper">
+                <div class="input-block">
+                    <!-- <label for="">Last Name</label> -->
+                    <input type="text" placeholder='Last Name' class="form-control">
+                </div>
+            </div>
+            <div class="email-wrapper">
+                <div class="input-block">
+                    <!-- <label for="">Email</label> -->
+                    <input type="text" placeholder='Email' class="form-control">
+                </div>
+            </div>
+            <div class="message-wrapper">
+                <div class="input-block">
+                    <!-- <label for="">Message Subject</label> -->
+                    <input type="text" placeholder='Message Subject' class="form-control">
+                </div>
+            </div>
+            <div class="text-form-wrapper">
+                <div class="input-block textarea">
+                    <!-- <label for="">Drop your message here</label> -->
+                    <textarea rows="3" type="text" placeholder='Drop your message here' class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="send-button-wrapper">
+                <button class="square-button">Send</button>
+            </div>
+        </form>
+    </section>
 
     <!-- Footer -->
     <div class="footer">
-        <a href="https://www.instagram.com/abide.worship/" target="_blank"><img src="./Icons/icons8-instagram-logo-48.png" alt="Instagram Logo"></a>
+        <a href="https://www.instagram.com/abide.worship/" target="_blank"><img
+                src="./Icons/icons8-instagram-logo-48.png" alt="Instagram Logo"></a>
         <p>&copy;&nbsp2023 Abide Worship</p>
     </div>
 

@@ -11,6 +11,10 @@ body {
     font-family: 'Aboreto', cursive;
 }
 
+h3, h4, h6, p {
+    font-size: 1.2em;
+}
+
 /* Navbar */
 .navbar-brand {
     font-size: 1em;
@@ -34,7 +38,7 @@ body {
 }
 
 .verse-wrapper {
-    padding: 5vh 15vw 5vh 15vw;
+    padding: 5vh 15vw 2vh 15vw;
     
     display: flex;
     flex-direction: column;
@@ -44,6 +48,7 @@ body {
 
 #center-verse {
     text-align: center;
+    font-size: 1.6em;
 }
 
 #mission-verse > h4 {
@@ -53,6 +58,24 @@ body {
 }
 
 .about-section {
+    padding: 3vh 0 3vh 0;
+}
+
+.about-section > p {
+    text-align: center;
+}
+
+.mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.core-values-section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -63,18 +86,77 @@ body {
     padding-right: 5vh;
 }
 
+/* Width queries */
+@media only screen and (max-width: 1200px){
+    .core-values-section {
+        padding-bottom: 10em;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .core-values-section {
+        padding-bottom: 12em;
+    }
+}
+
+/* Height queries */
+@media only screen and (max-height: 1082px){
+    .core-values-section {
+        padding-bottom: 8em;
+    }
+}
+
 .core-values-titles {
     text-align: start;
+    font-weight: bolder;
 }
 
 .about-titles {
     display: flex;
     justify-content: flex-start;
     text-decoration: underline;
+
+    padding-bottom: 20px;
+}
+
+.core-value-wrappers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+}
+
+.verse {
+    text-align: center;
+    width: 60%;
+}
+
+@media only screen and (max-width: 940px){
+    .verse {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 863px){
+    .verse {
+        width: 90%;
+    }
+}
+
+.verse-reference {
+    font-size: 0.9em;
 }
 
 .line {
     padding: 0 100px 0 100px;
+}
+
+@media only screen and (max-width: 940px){
+    .line {
+        padding: 0 50px 0 50px;
+    }
 }
 
 /* Footer */
@@ -89,7 +171,7 @@ body {
 
     position: fixed;
     bottom: 0;
-    height: 10vh;
+    height: 6rem;
     width: 100%;
     padding-top: 10px;
 }
@@ -107,6 +189,7 @@ body {
 
 .footer > a > img {
     border-radius: 10px;
+    margin-top: 10px;
 
     height: 5vh;
     object-fit: cover;

@@ -16,6 +16,79 @@ body {
     font-size: 1em;
 }
 
+/* Contact Form CSS */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.under-title {
+    font-size: 1.8rem;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #C2B280;
+    height: 100%;
+
+    padding: 20px 0 20px 0;
+    width: 100vw;
+    height: 70vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 70vh;
+}
+
+.form-control {
+    width: 100%;
+
+    margin: 10px 0 10px 0;
+}
+
+.name-wrapper {
+    display: flex;
+}
+
+.first-name-wrapper {
+
+}
+
+.last-name-wrapper {
+
+}
+
+.email-wrapper {
+
+}
+
+.message-wrapper {
+
+}
+
+.text-form-wrapper {
+
+}
+
+.send-button-wrapper {
+
+}
+
 /* Footer */
 .footer {
     background-color: #2e2a26;
@@ -28,7 +101,7 @@ body {
 
     position: fixed;
     bottom: 0;
-    height: 10vh;
+    height: 6rem;
     width: 100%;
     padding-top: 10px;
 }
