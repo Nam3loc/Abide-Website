@@ -121,6 +121,8 @@ input {
 .square-button {
     width: 70vw;
     height: 5vh;
+
+    border-radius: 5px;
 }
 
 .square-button:hover {
