@@ -30,6 +30,21 @@ body {
     font-size: 4em;
 }
 
+/* Mission Statement */
+.about-section > p {
+    text-align: center;
+}
+
+.mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
 /* Carousel */
 
 #carouselExampleAutoplaying {
