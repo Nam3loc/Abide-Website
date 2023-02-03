@@ -30,6 +30,25 @@ body {
 
 .under-title {
     font-size: 1.8rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .under-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .under-title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .under-title {
+        font-size: 0.8rem;
+    }
 }
 
 .contact-wrapper {
@@ -52,7 +71,13 @@ body {
     align-items: center;
 
     width: 100vw;
-    height: 70vh;
+    height: 100%;
+
+    padding-bottom: 15vh;
+}
+
+input {
+    width: 100%;
 }
 
 .form-control {
@@ -65,8 +90,12 @@ body {
     display: flex;
 }
 
-.first-name-wrapper {
+.input-block {
+    width: 70vw;
+}
 
+.first-name-wrapper {
+    
 }
 
 .last-name-wrapper {
@@ -86,7 +115,17 @@ body {
 }
 
 .send-button-wrapper {
+    width: 70vw;
+}
 
+.square-button {
+    width: 70vw;
+    height: 5vh;
+}
+
+.square-button:hover {
+    background-color: whitesmoke;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Footer */
