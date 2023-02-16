@@ -56,12 +56,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: #C2B280;
+    background-color: #c09f73;
     height: 100%;
 
     padding: 20px 0 20px 0;
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
 }
 
 .contact-form {
@@ -94,25 +94,17 @@ input {
     width: 70vw;
 }
 
-.first-name-wrapper {
+/* .first-name-wrapper {
     
 }
-
 .last-name-wrapper {
-
 }
-
 .email-wrapper {
-
 }
-
 .message-wrapper {
-
 }
-
 .text-form-wrapper {
-
-}
+} */
 
 .send-button-wrapper {
     width: 70vw;
